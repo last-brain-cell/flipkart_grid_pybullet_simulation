@@ -11,5 +11,6 @@ robot = p.loadURDF("scara.urdf", [0, 0, 0], useFixedBase=True)
 while True:
     p.stepSimulation()
 
+
 # Disconnect from the simulation
 # p.disconnect()
